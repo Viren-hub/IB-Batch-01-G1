@@ -41,7 +41,6 @@ function getddl(name) {
         );
 }
 
-
 // fetch(`https://api.covid19api.com/dayone/country/india`).then((data)=>{
 //     //console.log(data)   json format
 //     return data.json(); // converted to object
