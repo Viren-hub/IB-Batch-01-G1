@@ -24,6 +24,69 @@
             padding: 0%;
             margin: 0%;
         }
+        .box {
+            height: 80px;
+            width: 100%;
+            display: flex;
+            flex: block;
+            background-color: aquamarine;
+        }
+
+        s1 {
+            text-align: center;
+            border: 1px;
+            border-color: black;
+            background-color: aliceblue;
+        }
+
+        .t1 {
+            border-style: solid;
+            margin: 2px;
+            width: 25%;
+        }
+
+        .t2 {
+            border-style: solid;
+            margin: 2px;
+            width: 25%;
+        }
+
+        s2 {
+            text-align: center;
+            border: 1px;
+            border-color: black;
+            background-color: aliceblue;
+        }
+
+
+        .t3 {
+            border-style: solid;
+            margin-top: 2px;
+            width: 25%;
+
+
+        }
+
+        s3 {
+            text-align: center;
+            border: 1px;
+            border-color: black;
+            background-color: aliceblue;
+        }
+
+        .t4 {
+            border-style: solid;
+            margin: 2px;
+            width: 25%;
+        }
+
+        s4 {
+            text-align: center;
+            border: 1px;
+            border-color: black;
+            background-color: aliceblue;
+        }
+
 
         .main {
             height: 100vh;
@@ -149,7 +212,22 @@
         </div>
         <div class="two" id="data2">
 
+            <div class="box">
+                <div class="t1">
+                    <button id="b1" onclick="calConfirmedCases()">Confirmed Cases</button>
 
+                </div>
+                <div class="t2">
+                    <button id="b2" onclick="calcTotalDeaths()">Total Deaths</button>
+                </div>
+                <div class="t3" col-sm-3>
+                    <button id="b3" onclick="calcTotalRecovered()">Recovered Cases</button>
+                </div>
+                <div class="t4" col-sm-3>
+                    <button id="b4" onclick="calcTotalActiveCases()">Active Cases</button>
+                </div>
+
+            </div>
 
             <table class="table">
                 <thead>
