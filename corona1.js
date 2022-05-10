@@ -1,9 +1,9 @@
 function calConfirmedCases() {
     var table = document.getElementById("table");
     var totalConfirmed = 0;
-    for (var i = 1; i < table.rows.length; i++) {
-        totalConfirmed = totalConfirmed + parseInt(table.rows[i].cells[6].innerHTML);
-    }
+    // for (var i = 1; i < table.rows.length; i++) {
+        totalConfirmed = table.rows[table.rows.length-1].cells[6].innerHTML;
+    // }
     let b1=document.getElementById("b1");
     b1.innerHTML = "Total Confirmed Cases =" + totalConfirmed;
     
